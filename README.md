@@ -5,3 +5,4 @@
 Cuaderno de clase para la asignatura de tecnologia de 4º ESO con todos los proyectos que vamos a hacer durante el curso
 ![invernadero](imagenes/20250925_102946~2.jpg)
 ![mapa](imagenes/32268.jpg)
+<img src="imagenes/32268.jpg" width="100" height="100"/>
