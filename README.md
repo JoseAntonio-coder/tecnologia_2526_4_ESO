@@ -7,6 +7,7 @@ Cuaderno de clase para la asignatura de tecnologia de 4º ESO con todos los proy
 
 <img src="imagenes/32268.jpg" width="400" height="500"/>
 <img src="imagenes/20250925_102946~2.jpg" width="400" height="500"/>
+
 <p aling="center">
 <img src="imagenes/32267.jpg" width="400" height="500"/>
 </p>
