@@ -5,6 +5,7 @@
 Cuaderno de clase para la asignatura de tecnologia de 4º ESO con todos los proyectos que vamos a hacer durante el curso
 
 #Estado del mapa
+
 <img src="imagenes/mapa(1).jpg" width="400" height="500"/>
 
 <img src="imagenes/mapa(2).jpg" width="400" height="500"/>
