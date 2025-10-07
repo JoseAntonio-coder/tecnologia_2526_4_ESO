@@ -6,15 +6,9 @@ Cuaderno de clase para la asignatura de tecnologia de 4º ESO con todos los proy
 
 # Estado del mapa
 
-<img src="imagenes/Mapa(1).jpg" width="400" height="500"/>
-
-<img src="imagenes/Mapa(2).jpg" width="400" height="500"/>
-
-<p align="center">
-<img src="imagenes/Mapa(3).jpg" width="400" height="500"/>
-</p>
-<img src="imagenes/Mapa(4).jpg" width="400" height="500"/>
-<img src="imagenes/Mapa(6).jpg" width="400" height="500"/>
+|<img src="imagenes/Mapa(1).jpg" width="400" height="500"/>|<img src="imagenes/Mapa(2).jpg" width="400" height="500"/>|
+|<img src="imagenes/Mapa(3).jpg" width="400" height="500"/>|<img src="imagenes/Mapa(4).jpg" width="400" height="500"/>|
+|<img src="imagenes/Mapa(6).jpg" width="400" height="500"/>|
 
 **Posible** solución para el mapa
 
