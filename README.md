@@ -10,6 +10,8 @@ Cuaderno de clase para la asignatura de tecnologia de 4º ESO con todos los proy
 | <img src="imagenes/Mapa(3).jpg" width="400" height="500"/> | <img src="imagenes/Mapa(4).jpg" width="400" height="500"/> |
 | <img src="imagenes/Mapa(6).jpg" width="400" height="500"/> |
 
+Ahora mismo  el mapa está asi, y con la clase de plástica y robótica vamos a restaurarlo y ponerlo en la entrada del instituto de manera que se vea el mapa pero no lo puedan tocar para no estropearlo
+
 **Posible** solución para el mapa
 
 | <img src="imagenes/SoluciónMapa.jpg" width="400" height="500"/> | <img src="imagenes/diseño mapa (1).png" width="400" height="500"/> |
