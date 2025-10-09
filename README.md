@@ -12,7 +12,8 @@ Cuaderno de clase para la asignatura de tecnologia de 4º ESO con todos los proy
 
 **Posible** solución para el mapa
 
-<img src="imagenes/SoluciónMapa.jpg" width="400" height="500"/>
+| <img src="imagenes/SoluciónMapa.jpg" width="400" height="500"/> | <img src="imagenes/diseño mapa (1).png" width="400" height="500"/> |
+| <img src="imagenes/diseño mapa (2).png" width="400" height="500"/> | <img src="imagenes/diseño mapa (3).png" width="400" height="500"/> |
 
 # Estado del invernadero
 
