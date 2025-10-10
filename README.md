@@ -17,6 +17,8 @@ Ahora mismo  el mapa está asi, y con la clase de plástica y robótica vamos a 
 | <img src="imagenes/SoluciónMapa.jpg" width="400" height="500"/> | <img src="imagenes/diseño mapa (1).png" width="400" height="500"/> |
 | <img src="imagenes/diseño mapa (2).png" width="400" height="500"/> | <img src="imagenes/diseño mapa (3).png" width="400" height="500"/> |
 
+Esta puede ser una posible solucion para la recuperación y colocación del mapa dentro del centro
+
 # Estado del invernadero
 
 | <img src="imagenes/30590.jpg" width="400" height="500"/> | <img src="imagenes/30589.jpg" width="400" height="500"/> |
@@ -26,3 +28,14 @@ Ahora mismo  el mapa está asi, y con la clase de plástica y robótica vamos a 
 | <img src="imagenes/30581.jpg" width="400" height="500"/> | <img src="imagenes/30580.jpg" width="400" height="500"/> |
 | <img src="imagenes/30579.jpg" width="400" height="500"/> | <img src="imagenes/30578.jpg" width="400" height="500"/> |
 | <img src="imagenes/30577.jpg" width="400" height="500"/> | <img src="imagenes/30576.jpg" width="400" height="500"/> |
+
+
+Este es el estado del invernadero, bastante deteriorado por el tiempo que tiene sin usarse y por el clima que hemos tenido durante estos años
+
+
+
+Esta es la idea en la que hemos pensado para recuperar el invernadero a perfectas condicciones y que se pueda volver a usar
+
+
+# Lista de materiales para comprar y usar para las recuperaciones
+
