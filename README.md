@@ -1,7 +1,7 @@
 # Electrónica Básica
 ## Estos son algunos de los componentes electrónicos que se suelen usar dentro de un circuito eléctrico y sus formas de representarlos en un circuito:
 Resistencias fijas/variables:
-<img src="imagenes/resistencia.png" width="400" height="500"/>
+<img src="imagenesss/resistencia.png" width="400" height="500"/>
 
 Condensadores
 Diódos
