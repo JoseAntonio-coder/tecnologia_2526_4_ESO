@@ -5,6 +5,10 @@ Resistencias fijas/variables:
 
 <img src="imagenesss/resistencia (1).png" width="400" height="500"/>
 
+
+<img src="imagenesss/resistencia variable.png" width="400" height="500"/>
+
+
 Condensadores:
 
 
@@ -24,3 +28,19 @@ Transistores
 
 
 <img src="imagenesss/transistor.png" width="400" height="500"/>
+
+
+
+## Para que sirven estos componentes
+
+
+Resistencias: Las resistencias sirven para regular y estabilizar el flujo de corriente eléctrica, proteger componentes sensibles de daños por sobrevoltaje, dividir el voltaje en un circuito y generar calor
+
+
+Condensadores: Los condensadores sirven para almacenar energía en forma de campo eléctrico y para suavizar fluctuaciones de voltaje en circuitos
+
+
+Diódos: Los diodos sirven principalmente para permitir el paso de la corriente eléctrica en un solo sentido
+
+
+Ledes: Los ledes sirven para iluminar (hogares, oficinas, exteriores), como indicadores de estado en aparatos electrónicos y en pantallas (televisores, móviles)
