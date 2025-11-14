@@ -45,3 +45,5 @@ Diódos: Los diodos sirven principalmente para permitir el paso de la corriente 
 
 Ledes: Los ledes sirven para iluminar (hogares, oficinas, exteriores), como indicadores de estado en aparatos electrónicos y en pantallas (televisores, móviles)
 
+
+Transistores: Los transistores sirven para amplificar o conmutar señales eléctricas, actuando como interruptores controlados o como amplificadores de corriente.
