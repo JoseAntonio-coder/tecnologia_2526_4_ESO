@@ -65,3 +65,20 @@ Ledes: Un LED funciona cuando se aplica un voltaje directo, haciendo que los ele
 
 
 Transistores: Un transistor funciona controlando el flujo de corriente entre dos terminales (emisor y colector) mediante una pequeña señal aplicada a un tercer terminal (la base)
+
+
+## Símbolo eléctrico
+
+Resistencia:
+
+
+Condensador:
+
+
+Diódo:
+
+
+Led:
+
+
+Transistores:
