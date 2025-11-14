@@ -120,3 +120,19 @@ Led:
 Transistores:
 
 <img src="componentes/transistorreal.jpg" width="400" height="500"/>
+
+
+## Algunas aplicaciones de uso
+
+Resistencia: Las resistencias tienen aplicaciones como limitar la corriente para proteger componentes sensibles como los LED, dividir el voltaje en circuitos (divisores de voltaje), y actuar como calefactores en electrodomésticos y sistemas industriales
+
+Condensadores: Los condensadores tienen múltiples aplicaciones, incluyendo almacenamiento de energía (como en los flashes de cámaras o desfibriladores), filtrado de ruido en fuentes de alimentación y equipos de audio, sintonización de frecuencias en radios y televisores, arranque de motores (especialmente los monofásicos) y corrección del factor de potencia en instalaciones industriales para reducir el consumo reactivo
+
+Diódo: Los diodos tienen muchas aplicaciones, como rectificación (convertir corriente alterna en continua) en fuentes de alimentación, iluminación (diodos LED), y protección (evitar que la corriente circule en la dirección incorrecta o contra sobretensiones)
+
+Led: Las aplicaciones de un LED incluyen la iluminación (doméstica, exterior y decorativa), pantallas (televisores, monitores, teléfonos móviles, vallas publicitarias) y señalización (indicadores de estado, semáforos, paneles de información en transporte). También se usan en el sector automotriz (luces de freno, faros), médico (terapia de luz, equipos) y en agricultura (cultivo de plantas). 
+
+Transistores: Los transistores se usan para amplificar señales (en radios, televisores y equipos de audio) y para conmutar (encender o apagar) en circuitos digitales como los de computadoras y teléfonos, reguladores de voltaje y controladores de motores
+
+
+## Variedades de los componentes
