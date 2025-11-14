@@ -1,3 +1,0 @@
-# Electrónica básica
-
-Componentes
