@@ -99,24 +99,24 @@ Transistores:
 
 Resistencia: 
 
-<img src="componentes/simboloelectricoresistecia.jpg" width="400" height="500"/>
+<img src="componentes/resistenciareal.jpg" width="400" height="500"/>
 
 
 Condensador:
 
-<img src="componentes/simboloelectricocondensador.png" width="400" height="500"/>
+<img src="componentes/condensadorreal.jpg" width="400" height="500"/>
 
 
 Diódo: 
 
-<img src="componentes/simboloelectricodiodo.png" width="400" height="500"/>
+<img src="componentes/diodoreal.jpg" width="400" height="500"/>
 
 
 Led: 
 
-<img src="componentes/simboloelectricoled.png" width="400" height="500"/>
+<img src="componentes/ledreal.jpg" width="400" height="500"/>
 
 
 Transistores:
 
-<img src="componentes/simboloelectricotransistor.jpg" width="400" height="500"/>
+<img src="componentes/transistorreal.jpg" width="400" height="500"/>
