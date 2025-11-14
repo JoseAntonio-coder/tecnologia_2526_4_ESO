@@ -3,31 +3,31 @@
 Resistencias fijas/variables:
 
 
-<img src="imagenesss/resistencia (1).png" width="400" height="500"/>
+<img src="componentes/resistencia (1) (1).png" width="400" height="500"/>
 
 
-<img src="imagenesss/resistencia variable.png" width="400" height="500"/>
+<img src="componentes/resistencia variable (1).png" width="400" height="500"/>
 
 
 Condensadores:
 
 
-<img src="imagenesss/condensadores.png" width="400" height="500"/>
+<img src="componentes/condensadores (1).png" width="400" height="500"/>
 
 Diódos
 
 
-<img src="imagenesss/diodo.jpeg" width="400" height="500"/>
+<img src="componentes/diodo (1).jpeg" width="400" height="500"/>
 
 Ledes
 
 
-<img src="imagenesss/ledes.png" width="400" height="500"/>
+<img src="componentes/ledes (1).png" width="400" height="500"/>
 
 Transistores
 
 
-<img src="imagenesss/transistor.png" width="400" height="500"/>
+<img src="componentes/transistor (1).png" width="400" height="500"/>
 
 
 
