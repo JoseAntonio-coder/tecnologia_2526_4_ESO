@@ -69,16 +69,26 @@ Transistores: Un transistor funciona controlando el flujo de corriente entre dos
 
 ## Símbolo eléctrico
 
-Resistencia:
+Resistencia: 
+
+<img src="componentes/simboloelectricoresistencia.jpg" width="400" height="500"/>
 
 
 Condensador:
 
+<img src="componentes/simboloelectricocondensador.png" width="400" height="500"/>
 
-Diódo:
+
+Diódo: 
+
+<img src="componentes/simboloelectricodiodo.png" width="400" height="500"/>
 
 
-Led:
+Led: 
+
+<img src="componentes/simboloelectricoled.png" width="400" height="500"/>
 
 
 Transistores:
+
+<img src="componentes/simboloelectricotransistor.jpg" width="400" height="500"/>
