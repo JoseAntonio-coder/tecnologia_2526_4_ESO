@@ -71,7 +71,7 @@ Transistores: Un transistor funciona controlando el flujo de corriente entre dos
 
 Resistencia: 
 
-<img src="componentes/simboloelectricoresistencia.jpg" width="400" height="500"/>
+<img src="componentes/simboloelectricoresistecia.jpg" width="400" height="500"/>
 
 
 Condensador:
