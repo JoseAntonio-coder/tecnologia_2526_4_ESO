@@ -138,15 +138,16 @@ Transistores: Los transistores se usan para amplificar señales (en radios, tele
 ## Variedades de los componentes
 
 Resistencias:
-
+Resistencia fija y variable
 
 Condensadores:
-
+Condensadores cerámicos, condensadores electrolíticos, condensadores de poliéster o polipropileno, condensadores variables y supercondensadores
 
 Diódo:
+Diódo rectificador (el más común), el diódo Zener, diódo Schottky, el diódo de avalancha, el diódo varicap o varactor, los diodos de recuperación rápida (fast/ultra-fast) y los diódos de potencia
 
-
-Led
-
+Led:
+LED estándar, los LED SMD, los LED de alta potencia, los LED RGB, los LED infrarrojos, LED ultravioletas, los LED COB, los LED direccionables y los LED matriciales
 
 Transistores: 
+Los transistores bipolares BJT (NPN y PNP), los transistores MOSFET (canal N y canal P), los JFET, los transistores Darlington, los transistores IGBT, los fototransistores y los transistores UJT o PUT
