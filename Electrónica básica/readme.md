@@ -29,7 +29,7 @@ Transistores
 
 <img src="componentes/transistor (1).png" width="400" height="500"/>
 
-
+Relés:
 
 ## Para que sirven estos componentes
 
@@ -49,6 +49,9 @@ Ledes: Los ledes sirven para iluminar (hogares, oficinas, exteriores), como indi
 Transistores: Los transistores sirven para amplificar o conmutar señales eléctricas, actuando como interruptores controlados o como amplificadores de corriente.
 
 
+Relés:
+
+
 ## Funcionamiento interno
 
 
@@ -66,6 +69,8 @@ Ledes: Un LED funciona cuando se aplica un voltaje directo, haciendo que los ele
 
 Transistores: Un transistor funciona controlando el flujo de corriente entre dos terminales (emisor y colector) mediante una pequeña señal aplicada a un tercer terminal (la base)
 
+
+Relés:
 
 ## Símbolo eléctrico
 
@@ -92,6 +97,10 @@ Led:
 Transistores:
 
 <img src="componentes/simboloelectricotransistor.jpg" width="400" height="500"/>
+
+
+Relés:
+
 
 
 
@@ -122,6 +131,9 @@ Transistores:
 <img src="componentes/transistorreal.jpg" width="400" height="500"/>
 
 
+Relés:
+
+
 ## Algunas aplicaciones de uso
 
 Resistencia: Las resistencias tienen aplicaciones como limitar la corriente para proteger componentes sensibles como los LED, dividir el voltaje en circuitos (divisores de voltaje), y actuar como calefactores en electrodomésticos y sistemas industriales
@@ -134,6 +146,7 @@ Led: Las aplicaciones de un LED incluyen la iluminación (doméstica, exterior y
 
 Transistores: Los transistores se usan para amplificar señales (en radios, televisores y equipos de audio) y para conmutar (encender o apagar) en circuitos digitales como los de computadoras y teléfonos, reguladores de voltaje y controladores de motores
 
+Relés:
 
 ## Variedades de los componentes
 
@@ -151,3 +164,6 @@ LED estándar, los LED SMD, los LED de alta potencia, los LED RGB, los LED infra
 
 Transistores: 
 Los transistores bipolares BJT (NPN y PNP), los transistores MOSFET (canal N y canal P), los JFET, los transistores Darlington, los transistores IGBT, los fototransistores y los transistores UJT o PUT
+
+Relés:
+
