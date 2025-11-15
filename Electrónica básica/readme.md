@@ -138,3 +138,15 @@ Transistores: Los transistores se usan para amplificar señales (en radios, tele
 ## Variedades de los componentes
 
 Resistencias:
+
+
+Condensadores:
+
+
+Diódo:
+
+
+Led
+
+
+Transistores: 
