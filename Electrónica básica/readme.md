@@ -167,3 +167,19 @@ Los transistores bipolares BJT (NPN y PNP), los transistores MOSFET (canal N y c
 
 Relés:
 
+
+
+
+
+## Electrónica Digital
+
+La Electrónica Digital está basada en el uso de unos y ceros, siendo que 1 es positivo y cero negativo
+
+
+### Puertas Lógicas
+Primero os voy a hablar de las puertas lógicas, que conectadas dan señales 1 y 0, cosa que hace que los circuitos eléctricos funcionen bien.
+
+
+#### Puerta Lógica NOT
+
+
