@@ -188,6 +188,9 @@ Esta puerta lógica NOT lo que hace es negar la señal que le llega, y ¿que qui
 | 0 | 1 |
 | 1 | 0 |
 
+<img src="componentes/puertanot.png" width="400" height="500" />
+
+
 #### Puerta Lógica AND:
 Esta puerta lógica AND solo funciona cuando en sus dos entradas tiene un uno, explico mejor. Si yo en las dos entradas tengo 0 entonces me sale un 0, pero si en las dos tengo un uno pues me saldrá un 1. Sin embargo si en cualquiera de las entradas tengo un 1 y en la otra tengo un 0 me va a dar 0, ya que para que salga 1 las dos entradas deben tener un 1
 
@@ -198,4 +201,21 @@ Esta puerta lógica AND solo funciona cuando en sus dos entradas tiene un uno, e
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-#### Puerta lógica 
+
+<img src="componentes/puertaand.png" width="400" height="500" />
+
+
+#### Puerta lógica OR
+Esta puerta lógica lo que hace es si tenemos las dos entradas en 0 nos sale cero, pero si en una entrada es 1 y en la otra es 0 aun asi me sale 1, y si en las dos entradas es 1 entonces sale uno, en eso es igual que la puerta AND
+
+| a | b | S |
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
+<img src="componentes/puertaor.png" width="400" height="500" />
+
+
+####Puerta
