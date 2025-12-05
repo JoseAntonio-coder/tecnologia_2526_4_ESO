@@ -178,9 +178,10 @@ La Electrónica Digital está basada en el uso de unos y ceros, siendo que 1 es 
 
 ### Puertas Lógicas
 Primero os voy a hablar de las puertas lógicas, que conectadas dan señales 1 y 0, cosa que hace que los circuitos eléctricos funcionen.
+Antes de empezar a hablar de estas tengo que decir que hay una cosa que se llama tabla de verdad que voy a utilizar mucho en la que se dice las salidas y las entradas que tiene una puerta lógica o un circuito con estas últimas
 
 
-#### Puerta Lógica NOT:
+#### Puerta Lógica NOT
 Esta puerta lógica NOT lo que hace es negar la señal que le llega, y ¿que quiere decir esto? Pues esto quiere decir que si dentro de esta puerta lógica yo recibo una señal 0 esta puerta lógica lo nirga y lo vuelve un 1 y lo mismo al revés
 
 | a | S |
@@ -191,7 +192,7 @@ Esta puerta lógica NOT lo que hace es negar la señal que le llega, y ¿que qui
 <img src="componentes/puertanot.png" width="400" height="500" />
 
 
-#### Puerta Lógica AND:
+#### Puerta Lógica AND
 Esta puerta lógica AND solo funciona cuando en sus dos entradas tiene un uno, explico mejor. Si yo en las dos entradas tengo 0 entonces me sale un 0, pero si en las dos tengo un uno pues me saldrá un 1. Sin embargo si en cualquiera de las entradas tengo un 1 y en la otra tengo un 0 me va a dar 0, ya que para que salga 1 las dos entradas deben tener un 1
 
 | a | b | S |
@@ -218,4 +219,31 @@ Esta puerta lógica lo que hace es si tenemos las dos entradas en 0 nos sale cer
 <img src="componentes/puertaor.png" width="400" height="500" />
 
 
-####Puerta
+#### Puerta lógica NAND
+Esta puerta lógica funciona igual que la AND normal y corriente, el único cambio que tiene es que se niegan las salidas, si tengo en las dos entradas 0 sale 1 y si tengo en las dos entradas 1 sale 0, a continuación tabla de verdad que lo explica mejor
+
+| a | b | S |
+| - | - | - |
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+<img src="componentes/puertanand.png" width="400" height="500" />
+
+
+#### Puerta lógica NOR
+Esta puerta lógica funciona igual que una puerta OR, lo unico diferente es que invierte la salida. tabla de verdad a continuación:
+
+| a | b | S |
+| - | - | - |
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+<img src="componentes/puertanor.png" width="400" height="500" />
+
+
+#### Puerta lógica XOR
+Esta puerta lógica
