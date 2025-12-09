@@ -243,7 +243,42 @@ Esta puerta lógica funciona igual que una puerta OR, lo unico diferente es que 
 | 1 | 1 | 0 |
 
 <img src="componentes/puertanor.png" width="400" height="500" />
-
+ 
 
 #### Puerta lógica XOR
-Esta puerta lógica
+Esta puerta lógica funciona más o menos como una puerta OR, pero con la diferencia de que cuando las dos entradas son un 1 la salida es cero, es decir que la tabla de verdad sería la siguiente:
+
+| a | b | S |
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 | 
+
+<img src="componentes/puertaxor.png" width="400" height="500" />
+
+
+### Álgebra de Boole
+
+Vale, después de haber explicado todas las puertas lógicas y tablas de verdad vamos con el Álgebra de Boole, que basicamente es un método para ¨simplificar salidas¨ y averiguar la forma en la que se tiene que montar un circuito con las puertas lógicas que he explicado más arriba. Se consigue con una tabla de verdad cogiendo los unos que salen y viendo si la salida es negada o cero o si es positiva o 1. Esta tabla de verdad sería un ejemplo:
+| a | b | c | S |
+| - | - | - | - |
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
+
+Este sería un ejemplo de Álgebra de boole con esta tabla de verdad (' es negada):
+
+
+Esto se simplifica:
+a'bc'+ a'b'c + a'bc
+
+Sale lo siguiente:
+a'b + a'c
+
+Y a partir de eso sacamos los resusltados y averiguamos que el circuito es una puerta not y or como entradas que van a las entradas de una puerta and y de la salida de la and se saca conclusión
