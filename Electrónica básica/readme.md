@@ -283,3 +283,14 @@ a'b + a'c
 
 Y a partir de eso sacamos los resultados y averiguamos que el circuito es una puerta not y or como entradas que van a las entradas de una puerta and y de la salida de la and se saca la conclusión de si hemos montado bien el circuito
 
+Además de todo este rollo que acabo de explicar hemos hecho trabajos prácticos con estas puertas
+
+## Trabajos prácticos con puertas lógicas
+
+En primer lugar tengo que decir que hemos trabajado con cuatro puertas, todos hemos trabajado con tres que eran las mismas para un trabajo grupal y luego cada uno hemos trabajado con una distinta en una primera práctica, en mi caso en solitario he trabajado con una NOR que tenia las entradas y las salidas invertidas. Ya luego en el trabajo grupal hemos usado todos una puerta OR, otra puerta NOT y una AND
+
+
+### Trabajo en solitario
+
+<img src="componentes/ExquisiteUusam(1).png" width="400" height="500" />
+
