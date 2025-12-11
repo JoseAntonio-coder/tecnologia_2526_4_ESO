@@ -303,3 +303,5 @@ Este circuito lo que hace ees encender unn led a traves de la puerta lógica NOR
 ### Trabajo en grupo
 
 <img src="componentes/LDR Y RELE.png" width="400" height="500" />
+
+Este otro circuito hace que un relé se active mediante tres puertas lógicas, una OR, una NOT y una AND
