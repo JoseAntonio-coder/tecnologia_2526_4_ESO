@@ -292,5 +292,8 @@ En primer lugar tengo que decir que hemos trabajado con cuatro puertas, todos he
 
 ### Trabajo en solitario
 
-<img src="componentes/ExquisiteUusam(1).png" width="400" height="500" />
+<img src="componentes/Exquisite Uusam (1).png" width="400" height="500" />
 
+Con este circuito he aprendido a montar circuitos con puertas lógicas, además, os voy a explicar lo que hace este circuito.
+
+###### Que hace este circuito
