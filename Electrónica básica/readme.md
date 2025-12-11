@@ -281,4 +281,5 @@ a'bc'+ a'b'c + a'bc
 Sale lo siguiente:
 a'b + a'c
 
-Y a partir de eso sacamos los resusltados y averiguamos que el circuito es una puerta not y or como entradas que van a las entradas de una puerta and y de la salida de la and se saca conclusión
+Y a partir de eso sacamos los resultados y averiguamos que el circuito es una puerta not y or como entradas que van a las entradas de una puerta and y de la salida de la and se saca la conclusión de si hemos montado bien el circuito
+
