@@ -296,4 +296,10 @@ En primer lugar tengo que decir que hemos trabajado con cuatro puertas, todos he
 
 Con este circuito he aprendido a montar circuitos con puertas lógicas, además, os voy a explicar lo que hace este circuito.
 
-###### Que hace este circuito
+#### ¿Que hace este circuito?
+
+Este circuito lo que hace ees encender unn led a traves de la puerta lógica NOR, a la que le llegan las entradas de dos pulsadores. Este circuito tiene que hacer que mientras que no se use ningun pulsador tiene que encenderse un LED, y cuando pulsemos cualquiera de los pulsadores incluso pulsando los dos el LED se apague
+
+### Trabajo en grupo
+
+<img src="componentes/LDR Y RELE.png" width="400" height="500" />
