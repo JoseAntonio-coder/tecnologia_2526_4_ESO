@@ -11,3 +11,8 @@ Después de esta prueba de programación, en mi grupo hemos elaborado un program
 Video a continuación en el que se ve el rpgrama que he explicado.
 
 [![](https://img.youtube.com/vi/m-Ui3pkOT5Y/0.jpg)](https://www.youtube.com/watch?v=m-Ui3pkOT5Y)
+
+
+Esta nosotros teniamos la LDR conectada a la placa de pruebas y a Arduino atraves de unaos cables y una resistencia, en la imagen siguiente se ve las conexiones que hicimos
+
+<img src="Imágenes/Screenshot 2026-02-05 163536.png" width="400" height="500"/>
