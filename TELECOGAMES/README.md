@@ -16,3 +16,12 @@ Video a continuación en el que se ve el rpgrama que he explicado.
 Esta nosotros teniamos la LDR conectada a la placa de pruebas y a Arduino atraves de unaos cables y una resistencia, en la imagen siguiente se ve las conexiones que hicimos
 
 <img src="Imágenes/Screenshot 2026-02-05 163536.png" width="400" height="500"/>
+
+
+En esta imágen que hay debajo se puede ver el programa, que explicaré a continuación de esta
+
+<img src="Imágenes/Screenshot 2026-02-03 085901.png" width="400" height="500"/>
+
+En primer lugar vamos a crear tres variables, una en la que se diga donde está nuestra LDR, otra variable llamada entrada en la que vemos el valor que nos da la LDR en el monitor serie y otra variable, que ahora mismo no recuerdo bien. Después de esto está nuesttro void setup, en el que le decimos al programa si el pin en el que estamos es, de lectura o escritura, si es analógica (muchos valores posibles) o digital (solo dos posibles valores) y si queremos que se vea algo en el monitor serie a que velocidad, en Baudios, se pasan los datos desde que se reciben hasta que se llega a la placa Arduino
+Después tenemos nuestro void loop, que es lo que ejecuta nuestro porgrama, aqui decimos que la variable entrada es la lectura analógica de el pin en el que tenemos conectada nuestra LDR (en nuestro caso el A1)
+Despues ponemos que lo que se reciba en la placa nos lo ponga en el monitor serie, y que haya un restraso de 0,1 segundo en lo que se muestran los datos que recibimos en el monitor serie
