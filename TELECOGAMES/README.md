@@ -32,5 +32,28 @@ En esta imágen que hay debajo se puede ver el programa, que explicaré a contin
 <img src="Imágenes/Screenshot 2026-02-03 085901.png" width="400" height="500"/>
 
 En primer lugar vamos a crear tres variables, una en la que se diga donde está nuestra LDR, otra variable llamada entrada en la que vemos el valor que nos da la LDR en el monitor serie y otra variable, que ahora mismo no recuerdo bien. Después de esto está nuesttro void setup, en el que le decimos al programa si el pin en el que estamos es, de lectura o escritura, si es analógica (muchos valores posibles) o digital (solo dos posibles valores) y si queremos que se vea algo en el monitor serie a que velocidad, en Baudios, se pasan los datos desde que se reciben hasta que se llega a la placa Arduino
-Después tenemos nuestro void loop, que es lo que ejecuta nuestro porgrama, aqui decimos que la variable entrada es la lectura analógica de el pin en el que tenemos conectada nuestra LDR (en nuestro caso el A1)
+Después tenemos nuestro void loop, que es lo que ejecuta nuestro programa, aqui decimos que la variable entrada es la lectura analógica de el pin en el que tenemos conectada nuestra LDR (en nuestro caso el A1)
 Despues ponemos que lo que se reciba en la placa nos lo ponga en el monitor serie, y que haya un restraso de 0,1 segundo en lo que se muestran los datos que recibimos en el monitor serie
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ahora vamos con otros dos sensores que son los sensores de gas y de sonido.
+
+El primer video y foto son el sensor de sonido y su funcionamento, además como el código es el mismo no hace falta que ponga otra vez el código
+
+Vídeo funcionamento sensor sonido:
+
+[![](https://img.youtube.com/vi/E7mlcuRCIkQ/0.jpg)](https://www.youtube.com/watch?v=E7mlcuRCIkQ)
+
+Imagen conexiones sensor sonido:
+
+<img src="Imágenes/25968.jpg" width="400" height="500"/>
+
+
+Vídeo funcionamento sensor de gas:
+
+[![](https://img.youtube.com/vi/xSIciQBGbRE/0.jpg)](https://www.youtube.com/watch?v=xSIciQBGbRE)
+
+Imagen conexiones sensor de gas:
+
+<img src="Imágenes/25967.jpg" width="400" height="500"/>
