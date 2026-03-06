@@ -80,3 +80,17 @@ Imagen conexiones sensor de gas:
 
 
 Después de esto explico un poco. Estos sensores tienen el mismo código que los sensores anteriores, haciendo asi que tengamos la misma funcion pero con diferentes sensores, la diferencia es que en el de gas detectamos una cosa y en el sensor de sonido detectamos otra cosa
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Propuesta Invernadero
+
+
+Ya que hemos hecho todos estos sensores ahora vamos a hacer un invernadero para la competición TELECOGAMES. ¿Cómo lo vamos a hacer? A través de diseños 3D que nosotros mismos hemos diseñado en Tinkercad y que hemos impreso en una impresora 3D para después montar toda la estructura del invernadero.
+
+Yo como propuesta mia he hecho unas vigas para la parte de abajo para que así agarren los pilares y que no sea una estructura tan fácil de tirar, aquí abajo se muestra unas imágenes de mi diseño
+
+<img src="Imágenes/Columnas invernadero.png" width="400" height="500"/>
+
+<img src="Imágenes/Columnas invernadero (1).png" width="400" height="500"/>
