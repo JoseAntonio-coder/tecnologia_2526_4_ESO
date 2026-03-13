@@ -94,3 +94,10 @@ Yo como propuesta mia he hecho unas vigas para la parte de abajo para que así a
 <img src="Imágenes/Columnas invernadero.png" width="400" height="500"/>
 
 <img src="Imágenes/Columnas invernadero (1).png" width="400" height="500"/>
+
+
+Esta es mi parte de las bases del invernadero que me han tocado hacer, bases 1B y 1C
+
+<img src="Imágenes/Bases 1B y 1C invernadero (1).png" width="400" height="500"/>
+
+<img src="Imágenes/Bases 1B y 1C invernadero (2).png" width="400" height="500"/>
