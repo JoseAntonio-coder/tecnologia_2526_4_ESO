@@ -101,3 +101,14 @@ Esta es mi parte de las bases del invernadero que me han tocado hacer, bases 1B 
 <img src="Imágenes/Bases 1B y 1C invernadero (1).png" width="400" height="500"/>
 
 <img src="Imágenes/Bases 1B y 1C invernadero (2).png" width="400" height="500"/>
+
+Las bases sirven como su propio nombre indica como una base para las columnas de nuestro invernadero y que no se caigan las columnas del invernadero provocando así que el invernadero entero se caiga y tengamos la posibilidad de que se nos mueran las plantas o múltiples cosas de ese tipo que les puedan pasar a las plantas
+
+
+Así es como queda la estructura del invernadero una vez montado, ya solo faltaría ponerle algún plastico para que cumpla su proposito como invernadero y ya después empezar a programar placas con sus sensores respectivos y su pantalla LCD para poder poner las plantas y que el invernadero empiece a funcionar como es debido
+
+<img src="Imágenes/Screenshot 2026-03-13 084428.png" width="400" height="500"/>
+
+
+
+
