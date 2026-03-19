@@ -110,5 +110,11 @@ Así es como queda la estructura del invernadero una vez montado, ya solo faltar
 <img src="Imágenes/Screenshot 2026-03-13 084428.png" width="400" height="500"/>
 
 
+Esta imagen nos muestra las bases que hemos diseñado para nuestro invernadero todas juntas, haciendo que si lo juntamos a la imagen de arriba veamos que tenemos toda la estructura montada.
 
+<img src="Imágenes/Screenshot 2026-03-18 133124.png" width="400" height="500"/>
+
+En esta imagen podemos contemplar una imagen de nuestra primera base impresa en 3d cuando aún se estaba imprimiendo en la impresora 3d:
+
+<img src="Imágenes/Screenshot 2026-03-18 133024.png" width="400" height="500"/>
 
