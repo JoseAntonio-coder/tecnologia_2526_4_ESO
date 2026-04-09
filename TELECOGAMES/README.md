@@ -141,3 +141,9 @@ En el código usamos diferentes variables, algunas para mapeo y otras para los l
 Para que veáis como es el funcionamiento de la bomba de agua y el como tenemos todo lo demás conectado, a continuación os pongo un video en el que mostramos todo
 
 [![](https://img.youtube.com/vi/W6WgQlUROjo/0.jpg)](https://youtube.com/shorts/W6WgQlUROjo?si=jPaqCGfxtLzuXIPL)
+
+
+
+Y para que os hagais una idea de como se va a quedar todo conectado entre sí en tinkercad hemos hecho un diseño con todo conectado para que lo veais
+
+<img src="Imágenes/image.png" width="400" height="500"/>
