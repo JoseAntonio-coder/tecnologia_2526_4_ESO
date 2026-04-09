@@ -118,3 +118,26 @@ En esta imagen podemos contemplar una imagen de nuestra primera base impresa en 
 
 <img src="Imágenes/Screenshot 2026-03-18 133024.png" width="400" height="500"/>
 
+
+
+
+
+### Proyecto invernadero ("Parte" 2)
+
+Después de haber explicado todo esto hemos empezado con el montaje, quedandonos como resultado este invernadero, hay 3 piezas moradas porque en el momento en el que las tres ultimas se estaban imprimiendo se acabó el filamento de color negro y usamos otro para no tener que perder el tiempo esperando a que llegara otro filamento negro, además esta parte la vamos a usar como "zona tecnológica", donde vamos a poner la placa de arduino con los sensores, la bomba de agua que vamos a usar para regar la planta, el depósito del cual la bomba va a coger el agua.
+
+A continuación una foto de la estructura del invernadero ya montada:
+
+<img src="Imágenes/WhatsApp Image 2026-04-09 at 10.32.33.jpeg" width="400" height="500"/>
+
+
+
+Además de todo esto también necesitamos un código para que la placa de arduino sepa lo que hacer, aun que el código no está completo esto es por ahora lo que más se necesita, para, encender leds cuando falta agua, activar un relé que acciona la bomba de agua para regar las plantas, etc:
+
+<img src="Imágenes/Captura de pantalla 2026-04-09 103125.png" width="400" height="500"/>
+
+En el código usamos diferentes variables, algunas para mapeo y otras para los leds, por lo tanto hay dos mapeos. 
+
+Para que veáis como es el funcionamiento de la bomba de agua y el como tenemos todo lo demás conectado, a continuación os pongo un video en el que mostramos todo
+
+[![](https://img.youtube.com/vi/W6WgQlUROjo/0.jpg)](https://youtube.com/shorts/W6WgQlUROjo?si=jPaqCGfxtLzuXIPL)
