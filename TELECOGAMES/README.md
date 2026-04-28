@@ -147,3 +147,9 @@ Para que veáis como es el funcionamiento de la bomba de agua y el como tenemos 
 Y para que os hagais una idea de como se va a quedar todo conectado entre sí en tinkercad hemos hecho un diseño con todo conectado para que lo veais
 
 <img src="Imágenes/image.png" width="400" height="500"/>
+
+
+Finalmente, le hemos presentado este proyecto a los jurados de la primera fase de las TelecoGames, pero aún así, voy a seguir explicando los códigos y los cambios que vayamos haciendo con el proyecto.
+
+
+Para seguir con las explicaciones vamos a ir con los códigos, primero os voy a explicar el código que tiene nuestra placa maestro, después el código de nuestra placa maestro y, por último, el código de la configuración del módulo bluetooth que estamos usando
