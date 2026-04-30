@@ -152,4 +152,50 @@ Y para que os hagais una idea de como se va a quedar todo conectado entre sí en
 Finalmente, le hemos presentado este proyecto a los jurados de la primera fase de las TelecoGames, pero aún así, voy a seguir explicando los códigos y los cambios que vayamos haciendo con el proyecto.
 
 
-Para seguir con las explicaciones vamos a ir con los códigos, primero os voy a explicar el código que tiene nuestra placa maestro, después el código de nuestra placa maestro y, por último, el código de la configuración del módulo bluetooth que estamos usando
+Para seguir con las explicaciones vamos a ir con los códigos, primero os voy a explicar el código que tiene nuestra placa maestro, después el código de nuestra placa esclavo y, por último, el código de la configuración del módulo bluetooth que estamos usando
+
+Para empezar a explicar el código de nuestro programa esclavo, primero vamos a necesitar una imagen que os dejo a continuación:
+
+<img src="Imágenes/Captura de pantalla 2026-04-28 085055.png" width="400" height="500"/>
+
+Ya teniendo nuestra imagen a la vista os voy a explicar este.
+Empezamos con que tenemos que incluir una libreria llamada softwareserial para poder usar nuestro modulo bluetooth creando una "variable", seguimos después con nuestras variables, vamos primero con las de temperatura
+### Variables del programa:
+
+Como he dicho antes vamos a empezar por las variables de temperatura, usamos dos variables de tipo entero (int) y una solo de tipo numerico, es decir, con decimales (float) en las dos enteras nos encontramos con una que nos dice el pin de donde está conectado el sensor a la placa de arduino, en nuestro caso lo tenemos conectado a el pin A2, luego otra variable que nos sirve para poder calcular los grados actuales que hay a través de una fórmula que os explicaré más tarde. Ahora vamos con nuestra variable de numero decimal, que nos sirve para después de hacer la fórmula que os he comentado esta variable se asigne el dato del resultado de la fórmula y sepamos que temperatura hay en ese mismo instante.
+
+Ahora vamos con los pines de salida, en los cuales tenemos conectados un rele y dos diodos led, uno azul, para el agua y otro rojo para la temperatura, que nos avisan en caso de que haya poca agua en el tanque (diodo azul), haga demasiado calor (diodo rojo), y el relé, para hacer funcionar la bomba, respectivamente como os he explicado lo que hacen os digo en que pines están conectados, son los pines 6, 5 y 2.
+
+
+Ahora vamos con las variables de nuestro sensor de humedad, que nos avisa cuando la tierra de la planta está humeda, y tiene la suficiente humedad, para poder hacer que nuestra bomba de agua, que estaría regando en ese momento deje de regar.
+Las variables son las siguientes, el pin donde está conectado el sensor de humedad, el A0, la entrada de humedad, que nos sirve para hacer el mapeo de los valores uqe nos dé el sensor, y, por ultimo, otra variable que cuando hacemos el mapeo esta variable se asigne el dato que sale de dicho mapeo.
+
+Por último tenemos las variables de nuestro sensor de nivel de agua, que son las mismas que las del sensor anterior, cambiando el pin al que se conecta nuestro sensor, el A1, y cambiando los nombres de las variables, aun así las variables siguen haciendo lo mismo.
+
+
+
+### Void setup:
+
+Ahora empezamos con el programa en si, decimos que nuestro programa empiece con una velocidad de transmision de datos a nuestro monitor serie de 9600 baudios (esto nos sirve para ver los datos y la información que recibimos de nuestros sensores conectados a la placa)
+Seguimos con el miBT, que lo ponemos tambien a 9600 baudios, a continuación, le decimos a nuestra placa que los pines a los que hemos conectado los diodos y el relé son de salida.
+
+Por ahora eso es todo del programa, porque he dividido el programa en varias capturas, aqui va la siguiente
+
+### Segunda captura del código:
+
+<img src="Imágenes/Captura de pantalla 2026-04-28 085116.png" width="400" height="500"/>
+
+Ahora que tenemos la segunda captura, os voy a explicar el código que cabía en esta captura, hay bastante, asi que me pongo manos a la obra para explicaroslo
+
+### Void loop
+
+Empexamos con que tenemos el primer mapeo de este programa, que lo sacamos con las variables que he explicado antes. Primero ponemos la variable entrada de temperatura, que vamos a hacer que sea igual a los datos que lee desde el sensor de temperatura, a continuación, hacemos la fórmula para darle un valor a la variable de temperatura. La formula funciona de esta manera.
+
+
+
+
+
+
+
+
+
