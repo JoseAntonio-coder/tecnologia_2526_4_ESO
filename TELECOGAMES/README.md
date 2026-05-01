@@ -189,7 +189,7 @@ Ahora que tenemos la segunda captura, os voy a explicar el código que cabía en
 
 ### Void loop
 
-Empexamos con que tenemos el primer mapeo de este programa, que lo sacamos con las variables que he explicado antes. Primero ponemos la variable entrada de temperatura, que vamos a hacer que sea igual a los datos que lee desde el sensor de temperatura, a continuación, hacemos la fórmula para darle un valor a la variable de temperatura. La formula funciona de esta manera.
+Empexamos con que tenemos el primer mapeo de este programa, que lo sacamos con las variables que he explicado antes. Primero ponemos la variable entrada de temperatura, que vamos a hacer que sea igual a los datos que lee desde el sensor de temperatura, a continuación, hacemos la fórmula para darle un valor a la variable de temperatura. La formula funciona de esta manera. En vez de coger de los valores 0 a 1023, coge los valores de 0 a 50 y así hacer que tengamos el valor correcto de temperatura en grados
 
 
 
