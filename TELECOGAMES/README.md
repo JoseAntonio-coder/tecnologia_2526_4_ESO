@@ -164,7 +164,7 @@ Empezamos con que tenemos que incluir una libreria llamada softwareserial para p
 
 Como he dicho antes vamos a empezar por las variables de temperatura, usamos dos variables de tipo entero (int) y una solo de tipo numerico, es decir, con decimales (float) en las dos enteras nos encontramos con una que nos dice el pin de donde está conectado el sensor a la placa de arduino, en nuestro caso lo tenemos conectado a el pin A2, luego otra variable que nos sirve para poder calcular los grados actuales que hay a través de una fórmula que os explicaré más tarde. Ahora vamos con nuestra variable de numero decimal, que nos sirve para después de hacer la fórmula que os he comentado esta variable se asigne el dato del resultado de la fórmula y sepamos que temperatura hay en ese mismo instante.
 
-Ahora vamos con los pines de salida, en los cuales tenemos conectados un rele y dos diodos led, uno azul, para el agua y otro rojo para la temperatura, que nos avisan en caso de que haya poca agua en el tanque (diodo azul), haga demasiado calor (diodo rojo), y el relé, para hacer funcionar la bomba, respectivamente como os he explicado lo que hacen os digo en que pines están conectados, son los pines 6, 5 y 2.
+Ahora vamos con los pines de salida, en los cuales tenemos conectados un rele y dos diodos led, uno azul, para el agua y otro rojo para la temperatura, que nos avisan en caso de que haya poca agua en el tanque (diodo azul), haga demasiado calor (diodo rojo), y el relé, para hacer funcionar la bomba, respectivamente como os he explicado lo que hacen os digo en que pines están conectados, son los pines 6, 5 y 2. (Dato a aclarar, el relé lo configuramos al revés en el programa y así conseguimos que el programa funcione correctamente)
 
 
 Ahora vamos con las variables de nuestro sensor de humedad, que nos avisa cuando la tierra de la planta está humeda, y tiene la suficiente humedad, para poder hacer que nuestra bomba de agua, que estaría regando en ese momento deje de regar.
@@ -189,9 +189,32 @@ Ahora que tenemos la segunda captura, os voy a explicar el código que cabía en
 
 ### Void loop
 
-Empexamos con que tenemos el primer mapeo de este programa, que lo sacamos con las variables que he explicado antes. Primero ponemos la variable entrada de temperatura, que vamos a hacer que sea igual a los datos que lee desde el sensor de temperatura, a continuación, hacemos la fórmula para darle un valor a la variable de temperatura. La formula funciona de esta manera. En vez de coger de los valores 0 a 1023, coge los valores de 0 a 50 y así hacer que tengamos el valor correcto de temperatura en grados
+Empezamos con que tenemos el primer mapeo de este programa, que lo sacamos con las variables que he explicado antes. Empezamos con nuestra variable de entrada de agua, que lo que hace es leer los datos que nos llegan del sensor del agua que tenemos puesto con depósito de agua. Después le decimos que haga un mapeo con los datos que la variable entradaagua ha cogido de la lectura del sensor de agua.
+
+En segundo lugar ponemos la variable entrada de temperatura, que vamos a hacer que sea igual a los datos que lee desde el sensor de temperatura, a continuación, hacemos la fórmula para darle un valor a la variable de temperatura. La formula funciona de esta manera. En vez de coger de los valores 0 a 1023, coge los valores de 0 a 50 y así hacer que tengamos el valor correcto de temperatura en grados.
+
+Por último, tenemos otro mapeo más, el de nuestro sensor de humedad. Este hace lo mismo que el mapeo de nuestro sensor de agua.
+
+Cosa que tengo que añadir es que en cada uno de estos mapeos hay un delay de 20 milisegundos.
+
+Siguiendo con nuestro código, tenemos nuestro primer if, es decir, un condicional, que en este caso, depende de la variable agua, que es el dato que nos proporciona el mapeo del sensor de agua que tenemos en el depósito de agua.
+Este if dice que si el dato que nos da la variable agua es menor o igual que 30, el relé se apague, se apague también el led rojo, que es el de temperatura, y se encienda el luz azul, el del agua. Tambien envia un numero al nuestra placa esclavo para que haga una serie de cosas que se explicaran después.
 
 
+Tenemos un segundo if, que actua si el dato que nos da la variable agua es mayor que 30. ¿Que es lo que hace este if? Hace que el led azul se apague, envie un numero a nuestra placa esclavo y que haga otro if, y es para ver si debemos regar o no, ¿cómo? Si el dato que tenemos de la humedad es igual o menor que 50 entonces empieza otro if que va con la temperatura, y hace que si la temperatura es mayor o igual que 50, se encienda el led rojo, que es de la temperatura.
+
+Por ahora solo tengo eso de código en esa captura, ahora vamos a la siguiente
+
+
+### Tercera parte del código
+
+<img src="Imágenes/Captura de pantalla 2026-04-28 085135.png" width="400" height="500"/>
+
+Seguimos con el void loop. El último if que hemos visto también hace que envíe un código a nuestra placa esclavo y por último hace que nuestro relé se apague para que la bomba de agua deje de regar
+
+A continuación tenemos otro if, que si la temperatura es menor de 50, hace que el relé se encienda para que empiece a regar y también apaga el led y envía otro código a nuestra placa esclavo.
+
+Tenemos un if final que hace que si la humedad que obtenemos del sensor es mayor que 50, el relé se apague para dejar de regar, ademas envía otro código a nuestra placa esclavo y además apaga el led del agua 
 
 
 
