@@ -217,8 +217,18 @@ A continuación tenemos otro if, que si la temperatura es menor de 50, hace que 
 Tenemos un if final que hace que si la humedad que obtenemos del sensor es mayor que 50, el relé se apague para dejar de regar, ademas envía otro código a nuestra placa esclavo y además apaga el led del agua 
 
 
+Esa es la última parte de nuestro código de la placa maestro, ahora vamos con la placa esclavo, cuyo código aparece a continuación
 
+### Código placa esclavo
 
+<img src="Imágenes/Captura de pantalla 2026-05-02 221952.png" width="400"/>
 
+Para empezar este programa de código vamos a poner lo mismo que al principio de nuestro programa anterior el  #include Softwareserial, el cul nos sirve para hacer q nuestro bluetooth funcione.
+Luego seguimos asignando a que pines está conectado el módulo bluetooth en la placa, un vez ya lo tenemos puesto seguimos con las variables. Las únicas variables que nosotros hemos puesto son las de nuestros leds zul y rojo (como ya he dicho anteriormente, azul agua y rojo temperatura)
+Siguiendo con el programa, ahora tenemos nuestro void setup, el cual empieza igual que el otro progrma, poniendo tanto el serialbegin como el miBT a 9600 baudios, que es la velocidad a la que se pasan los datos. Además, después, indicamo que nuestros pines son de salida, por lo tanto le estamos diciendo al programa que no va a recibir nada de esos pines.
+
+Seguimos con el void loop.
+Empezamos con un if, que dice que si el miBT está disponible una variable llamada dato lea lo que recibe de miBT, luego hace que se nos escriba en el monitor serie el dato que hemos recibido
+A continuación tenemos otro if, pero ahora va con los datos que recibimosen el cuál, si el dato que recibimos es 1 el led del agua se enciende. si es 2, no se enciende ninguno, si es 3 se enciende el de temperatura y si es 4 o 5 se apaguen todos los leds
 
 
