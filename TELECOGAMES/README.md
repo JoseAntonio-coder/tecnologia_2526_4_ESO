@@ -229,6 +229,11 @@ Siguiendo con el programa, ahora tenemos nuestro void setup, el cual empieza igu
 
 Seguimos con el void loop.
 Empezamos con un if, que dice que si el miBT está disponible una variable llamada dato lea lo que recibe de miBT, luego hace que se nos escriba en el monitor serie el dato que hemos recibido
-A continuación tenemos otro if, pero ahora va con los datos que recibimosen el cuál, si el dato que recibimos es 1 el led del agua se enciende. si es 2, no se enciende ninguno, si es 3 se enciende el de temperatura y si es 4 o 5 se apaguen todos los leds
+A continuación tenemos otro if, pero ahora va con los datos que recibimosen el cuál, si el dato que recibimos es 1 el led del agua se enciende. si es 2, no se enciende ninguno, si es 3 se enciende el de temperatura y si es 4 o 5 se apaguen todos los leds.
+Ese es todo el programa de la placa esclavo 
+
+A continuación os pongo una imagen de como está conectado todo.
+
+<img src="Imágenes/montajeTINKERCAD.png" width="400" height="500"/>
 
 
